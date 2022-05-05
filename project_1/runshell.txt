@@ -1,0 +1,2 @@
+mpiicc -o hellox x.c
+mpirun -np 3 hellox

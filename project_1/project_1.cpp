@@ -1,12 +1,12 @@
 ﻿// project_1.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
-
+/*
 #include<stdio.h>
 #include<mpi.h>
 #include<string.h>
 
+*/
 /*
-
 int main() {
 	int my_rank, comm_sz;
 	MPI_Init(NULL, NULL);
@@ -15,11 +15,11 @@ int main() {
 	printf("%d and %d fine", my_rank, comm_sz);
 	MPI_Finalize();
 	return 0;
-}
-*/
+}*/
+/*
 const int MAX_STRING = 100;
 int main() {
-	/*char greet[MAX_STRING];
+	char greet[MAX_STRING];
 	int comm_sz;
 	int my_rank;
 	MPI_Init(NULL, NULL);
@@ -38,7 +38,7 @@ int main() {
 	}
 	MPI_Finalize();
 	return 0;*/
-
+	/*
 	int numprocs, myid, source;
 	MPI_Status status;
 	char message[100];
@@ -59,7 +59,7 @@ int main() {
 	}
 	MPI_Finalize();
 	
-}
+}*/
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
 

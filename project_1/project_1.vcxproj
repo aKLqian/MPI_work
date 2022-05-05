@@ -119,6 +119,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;MPICH_SKIP_MPICXX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,8 +144,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="02n.cpp" />
+    <ClCompile Include="b_ax.cpp" />
+    <ClCompile Include="b_ax_time.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="o_mat.cpp" />
+    <ClCompile Include="o_sort.cpp" />
     <ClCompile Include="project_1.cpp" />
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="sort_time.cpp" />
     <ClCompile Include="try.cpp" />
+    <ClCompile Include="area.cpp" />
+    <ClCompile Include="o_area.cpp" />
+    <ClCompile Include="tt.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="unistd.h" />

@@ -21,6 +21,39 @@
     <ClCompile Include="try.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="02n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="area.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_ax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_ax_time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="o_area.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="o_sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="o_mat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="unistd.h">
